@@ -19,7 +19,7 @@
 <body>
 
 <h1>Privacy Policy — K Downloader</h1>
-<p class="updated">Last updated: 14 October 2026</p>
+<p class="updated">Last updated: 3 November 2026</p>
 
 <p>K Downloader is a download manager: it saves files from links you give it.
 This page explains exactly what the app does and does not send anywhere.</p>
@@ -46,6 +46,7 @@ download, to offer a link you just copied. It is never read in the background,
 and you can turn this off in Settings.</p>
 
 <h2>What the app does send</h2>
+<p>On Android (the iPhone app uses AdMob only — see below):</p>
 <ul>
   <li><strong>Crash reports</strong> (Firebase Crashlytics) — when the app
       stops unexpectedly, a technical report is sent so the fault can be fixed.
@@ -80,6 +81,28 @@ and you can turn this off in Settings.</p>
       for later after the phone restarts.</li>
   <li><strong>Storage</strong> — on Android 9 and older only, to save files in
       the Download folder. Newer Android versions need no storage permission.</li>
+</ul>
+
+<h2>On iPhone and iPad</h2>
+<p>The iOS app works the same way, with these differences:</p>
+<ul>
+  <li><strong>No Firebase</strong> — the iOS app sends no crash reports and no
+      usage statistics. The only outside service it uses is Google AdMob.</li>
+  <li><strong>Tracking permission</strong> — before ads are loaded, iOS asks
+      whether K Downloader may track you. If you allow it, AdMob may use the
+      device's advertising identifier (IDFA) to show more relevant ads and
+      measure them. If you choose <em>Ask App Not to Track</em>, the identifier
+      is not shared and you still get ads, just less personalised ones. You can
+      change this any time in <em>Settings → Privacy &amp; Security →
+      Tracking</em>.</li>
+  <li><strong>Files</strong> — downloads are saved inside the app and are
+      visible in the Files app under <em>On My iPhone → K Downloader</em>.</li>
+  <li><strong>Clipboard</strong> — the app reads a link only when you tap the
+      system <em>Paste</em> button yourself; it never reads the clipboard on its
+      own.</li>
+  <li><strong>Background downloads and audio</strong> — iOS lets downloads
+      finish and music keep playing after you leave the app. No other
+      permissions are requested.</li>
 </ul>
 
 <h2>Children</h2>
